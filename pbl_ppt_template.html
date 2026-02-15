@@ -45,8 +45,12 @@
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-6 pt-32 pb-8">
-    <div style="width: 100%; height: 80vh; border: 2px solid #3b82f6; border-radius: 1rem; overflow: hidden;">
+    <main>
+    <div style="text-align: center; color: white; margin-bottom: 20px;">
+        <h1>Hybrid Multi-Model Malware Detection in Android Systems</h1>
+        <p>Dhwani Jain | 2427030681 | Guide: Dr. Neha Janu</p>
+    </div>
+    <div style="width: 100%; height: 80vh;">
         <iframe src="PBL PPT (4TH SEM).pdf" width="100%" height="100%" style="border: none;"></iframe>
     </div>
 </main>
@@ -78,31 +82,6 @@
                 }
             }, 1000);
         }
-
-        // RESULTS CHART (Demo Data)
-        const ctx = document.getElementById('resultsChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Existing System', 'Our Solution'],
-                datasets: [{
-                    data: [70, 92],
-                    backgroundColor: ['#1e293b', '#3b82f6'],
-                    borderRadius: 15,
-                    barThickness: 50
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: { 
-                    y: { beginAtZero: true, grid: { color: '#ffffff05' }, ticks: { color: '#475569' } },
-                    x: { grid: { display: false }, ticks: { color: '#475569' } }
-                }
-            }
-        });
     </script>
 </body>
-
 </html>
